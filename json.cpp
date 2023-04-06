@@ -280,4 +280,5 @@ int main() {
     x.push({ Null {} });
     x["version"] = { "1.0.0" };
     std::cout << x << "\n";
+    return 0;
 }
