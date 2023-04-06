@@ -278,7 +278,6 @@ int main() {
     std::cout << x << "\n";
     x.push({ true });
     x.push({ Null {} });
-    x["version"] = { 114514LL };
+    x["version"] = { "1.0.0" };
     std::cout << x << "\n";
-    std::is_same_v<int, int>;
 }
